@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  <!-- Inclua o link para o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Inclua o seu próprio arquivo CSS, se desejar -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Meu Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <div class="container mt-4">
+    <h1>Bem-vindo ao Meu Site!</h1>
+    <p>Este é um site criado por Gabriel Almeida.</p>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <span class="text-muted">© 2024 Meu Site</span>
+    </div>
+  </footer>
+
+  <!-- Inclua o link para o JavaScript do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
